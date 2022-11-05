@@ -166,10 +166,10 @@ public class Main {
         while(previous200Years <= 2000){
 
             previous200Years++;
-                    if(previous200Years % 79 == 0 && previous200Years > (currentYear - yearsAgo)){
-                        System.out.println(previous200Years);
-                        lastAppear = (previous200Years);
-                    }
+            if(previous200Years % 79 == 0 && previous200Years > (currentYear - yearsAgo)){
+                System.out.println(previous200Years);
+                lastAppear = (previous200Years);
+            }
         }
 
         nextAppear = lastAppear + 79;
