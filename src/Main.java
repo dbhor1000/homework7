@@ -159,21 +159,19 @@ public class Main {
 
         int currentYear=2022;
         int yearsAgo = 200;
-        int previous200Years = 0;
-        int lastAppear = 0;
-        int nextAppear = 0;
+        int intoFuture = 100;
+        int previousAppear = 0;
 
-        while(previous200Years <= 2000){
 
-            previous200Years++;
-            if(previous200Years % 79 == 0 && previous200Years > (currentYear - yearsAgo)){
-                System.out.println(previous200Years);
-                lastAppear = (previous200Years);
+        while(previousAppear <= (currentYear + intoFuture)){
+
+            previousAppear++;
+            if(previousAppear % 79 == 0 && previousAppear > (currentYear - yearsAgo)){
+                System.out.println(previousAppear);
+
             }
         }
 
-        nextAppear = lastAppear + 79;
-        System.out.println(nextAppear);
 
 
         ///Task 9
