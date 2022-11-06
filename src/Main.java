@@ -7,7 +7,7 @@ public class Main {
         int months = 0;
         int monthlyInvest1 = 15000;
 
-        while(totalSavings1 < 2459000){
+        while(totalSavings1 < 2459001){
 
             totalSavings1 = totalSavings1 + monthlyInvest1;
             months = months + 1;
